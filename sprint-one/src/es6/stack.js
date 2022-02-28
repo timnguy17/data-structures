@@ -15,9 +15,9 @@ class Stack {
 
   pop() {
     if (this.keys > 0) {
-      delete this.storage[this.keys]
+      delete this.storage[this.keys];
       this.keys--;
-      return this.storage[this.keys]
+      return this.storage[this.keys];
 
     }
   }

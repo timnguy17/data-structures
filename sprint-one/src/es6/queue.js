@@ -15,8 +15,8 @@ class Queue {
 
   dequeue() {
     var temp = this.storage[this.front];
-    delete this.storage[this.front] //delete removes property not just value;
-    this.front++
+    delete this.storage[this.front]; //delete removes property not just value;
+    this.front++;
     return temp;
   }
 

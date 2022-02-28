@@ -11,18 +11,18 @@ var Queue = function() {
 Queue.prototype.enqueue = function (value) {
   this.storage[this.back] = value;
   this.back++;
-}
+};
 
 Queue.prototype.dequeue = function() {
   var temp = this.storage[this.front];
   delete this.storage[this.front];
   this.front++;
   return temp;
-}
+};
 
 Queue.prototype.size = function () {
   return Object.keys(this.storage).length;
-}
+};
 
 
 // var someInstance = new Queue();
