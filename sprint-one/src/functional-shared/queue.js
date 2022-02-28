@@ -12,6 +12,11 @@ var Queue = function() {
   return someInstance;
 };
 
+
+
+
+
+
 var queueMethods = {};
 
 queueMethods.enqueue = function(value) {
